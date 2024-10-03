@@ -33,12 +33,11 @@ Para executar a aplicação siga os seguintes passos:
 ``composer install``
 - Crie um banco de dados com o nome ```fullstack-dictionary```
 - Altere o arquivo ```config/database.php```, informando as credenciais corretas.
-- Faca uma copia do arquivo ```.env.example```, renomeie-o para ```.env```, informe
+- Faca uma copia do arquivo ```.env.example``` na raiz do projeto, renomeie-o para ```.env```, informe
 as credenciais corretas.
 - Execute os comandos
     ```php artisan key:generate```
     ```php artisan optimize```
     ```php artisan migrate```
-    ```php artisan serve```
 
 O back-end da aplicacao esta pronto para ser utilizado.
